@@ -139,28 +139,60 @@
                         <h2>Agregar un Nuevo Producto</h2>
                     </div>
                 </div>
+
+                <!-- <div class="checkout__input">
+                                    <p>Título<span>*</span></p>
+                                    <input type="text">
+                                </div>
+                            
+                           <li>
+                                <p   for="nombre">Nombre del Producto:
+                                <input class="ob" type="text" autofocus maxlength="20" placeholder="Producto" required title="Este campo es Obligatorio."> </p>
+                              </li> -->
                 <div class="">
                     <article>
                         <form action="#">
                           <fieldset>
                             <ol class="lista">
-                              <li>
-                                <p   for="nombre">Nombre del Producto
-                                <input class="ob" type="text" autofocus maxlength="20" placeholder="Producto" required title="Este campo es Obligatorio."> </p>
-                              </li>
-                              <li>
-                                <p   for="codigo">Código del Producto: 
-                                <input class="ob" type="text" placeholder="Código" maxlength="15" required title="Este campo es Obligatorio."></p>
-                              </li>
-                              <li>
+                                <!-- AQUI EMPIEZA-->
+                                <div class="checkout__input">
+                                    <p for="nombre">Nombre del Producto: <span>*</span></p>
+                                    <input class="ob" type="text" autofocus maxlength="20" placeholder="Producto" required title="Este campo es Obligatorio."> </p>
+                                </div>
+                              <!-- AQUI TERMINA-->
+                              <div class="checkout__input">
+                                <p for="codigo">Código del Producto: <span>*</span></p>
+                                <input class="ob" type="text" autofocus maxlength="20" placeholder="Código" required title="Este campo es Obligatorio."> </p>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Categoría: <span>*</span></p>
+                                <select class="Select" required title="Este campo es Obligatorio.">
+                                    <option value="carne">Cortes</option>
+                                    <option value="sazon">Sazonadores</option>
+                                    <option value="complemento">Utencilios</option>
+                                  </select> 
+                            </div>
+                              <!--<li>
                                 <p  >Categoria: </p>
                                     <select class="Select" required title="Este campo es Obligatorio.">
                                         <option value="carne">Cortes</option>
                                         <option value="sazon">Sazonadores</option>
                                         <option value="complemento">Utencilios</option>
                                       </select>                                    
-                              </li>
+                              </li>-->
                               <br>
+                              <div class="checkout__input">
+                                <p for="cantidad">Cantidad en Stock: <span>*</span></p>
+                                <input class="ob" type="number" value="1" required title="Este campo es Obligatorio."></p>    
+                               </div>
+                               <div class="checkout__input">
+                                <p for="precio" id="precio">Precio: <span>*</span></p>
+                                <input class="ob" type="text" maxlength="10" value="0.00" required title="Este campo es Obligatorio."></p>
+                               </div>
+                               <!--<div class="checkout__input">
+                                <p>Insertar Imagen: <span>*</span></p>
+                                <input class="ob" type="file" name="imagen" required title="Este campo es Obligatorio."/>   
+                               </div>
                               <li>
                                 <p   for="cantidad">Cantidad en Stock: 
                                 <input class="ob" type="number" value="1" required title="Este campo es Obligatorio."></p>
@@ -168,7 +200,7 @@
                               <li>
                                 <p   for="precio" id="precio">Precio: $
                                 <input class="ob" type="text" maxlength="10" value="0.00" required title="Este campo es Obligatorio."></p>
-                              </li>
+                              </li>-->
                               <li>
                                   <p  >Insertar Imagen: </p>
                                 <input class="ob" type="file" name="imagen" required title="Este campo es Obligatorio."/>   
