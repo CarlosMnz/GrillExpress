@@ -63,13 +63,13 @@ $_USER = $_SESSION['id'];
             <ul>
                 <li class="active"><a href="./index.php">Catálogo</a></li>
                 <li><a href="./blog.html">Receta</a></li>
-                <li><a href="./login.html">Iniciar sesión</a></li>
                 <li><a href="#">Acciones</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./PublicarBlog.html">Añadir receta</a></li>
-                        <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
-                    </ul>
-                </li>
+                <ul class="header__menu__dropdown">
+                    <li><a href="./PublicarBlog.html">Añadir receta</a></li>
+                    <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
+                </ul>
+                <li><a href="./login.html">Iniciar sesión</a></li>
+            </li>
             </ul>
             </ul>
         </nav>
@@ -500,10 +500,10 @@ $_USER = $_SESSION['id'];
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <abbr title="Facebook"> <a href="#"><i class="fa fa-facebook"></i></a></abbr>
+                            <abbr title="Instagram"> <a href="#"><i class="fa fa-instagram"></i></a></abbr>
+                            <abbr title="Twitter"> <a href="#"><i class="fa fa-twitter"></i></a></abbr>
+                            <abbr title="Pinterest"> <a href="#"><i class="fa fa-pinterest"></i></a></abbr>
                         </div>
                     </div>
                 </div>

@@ -66,13 +66,13 @@ require ('Conexion.php');
             <ul>
                 <li class="active"><a href="./index.php">Catálogo</a></li>
                 <li><a href="./blog.html">Receta</a></li>
-                <li><a href="./login.html">Iniciar sesión</a></li>
                 <li><a href="#">Acciones</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./PublicarBlog.html">Añadir receta</a></li>
-                        <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
-                    </ul>
-                </li>
+                <ul class="header__menu__dropdown">
+                    <li><a href="./PublicarBlog.html">Añadir receta</a></li>
+                    <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
+                </ul>
+            </li>
+            <li><a href="./login.html">Iniciar sesión</a></li>
             </ul>
             </ul>
         </nav>
@@ -102,15 +102,13 @@ require ('Conexion.php');
                             <ul>
                                 <li class="active"><a href="./index.html">Catálogo</a></li>
                                 <li><a href="./blog.html">Receta</a></li>
-                                <li><a href="./login.html">Cerrar sesión</a></li>
                                 <li><a href="#">Acciones</a>
-                                    <ul class="header__menu__dropdown">
-                                        <li><a href="./PublicarBlog.html">Añadir receta</a></li>
-                                        <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
-                                    </ul>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./PublicarBlog.html">Añadir receta</a></li>
+                                    <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
+                                </ul>
                                 </li>
-
-    
+                                <li><a href="./login.html">Cerrar sesión</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -168,8 +166,20 @@ require ('Conexion.php');
                                 <td >
                                 <a href="EdicionProducto.php?id=<?php echo $row['codigo'];?>" id="edit" class="btn btn-secondary btn-sm" data-ripple-color="dark">
                             <i class="icon_pencil-edit"></i></a>
-                            <td><button id="<?php echo $row['codigo'] ?>" type="button" class="btn btn-danger btn-sm" data-ripple-color="dark"><i class=" icon_trash"></i></button></td>
+                            <!-- <td><button id="<?php echo $row['codigo'] ?>" type="button" class="btn btn-danger btn-sm" data-ripple-color="dark"><i class=" icon_trash"></i></button></td> -->
+                            <td><button onclick="myFunction()" type="button" class="btn btn-danger btn-sm" data-ripple-color="dark"><i class=" icon_trash"></i></button></td>
 
+                            <script>
+                                function myFunction() {
+                                    var resultado = window.confirm("¿Estás seguro que deseas eliminar el producto? (Esta acción no se puede revertir)");
+
+                                    if (resultado === true) {
+                                        window.alert('Producto eliminado');
+                                    } else { 
+                                        window.alert('Producto no eliminado');
+                                    }
+                                    }
+                            </script>
                                 </td>
                             </tr>
                         <?php }
@@ -228,10 +238,10 @@ require ('Conexion.php');
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
                         <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <abbr title="Facebook"> <a href="#"><i class="fa fa-facebook"></i></a></abbr>
+                            <abbr title="Instagram"> <a href="#"><i class="fa fa-instagram"></i></a></abbr>
+                            <abbr title="Twitter"> <a href="#"><i class="fa fa-twitter"></i></a></abbr>
+                            <abbr title="Pinterest"> <a href="#"><i class="fa fa-pinterest"></i></a></abbr>
                         </div>
                     </div>
                 </div>
