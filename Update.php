@@ -11,7 +11,7 @@ require ('Conexion.php');
         echo '<script language="javascript">alert("Se ha agregado correctamente");</script>';
     }
     else{
-        echo '<script language="javascript">alert("JIJIJIJA");</script>';
+        echo '<script language="javascript">alert("Hubo un error inesperado");</script>';
     }
     $close = mysqli_close($conexion) 
 or die("Ha sucedido un error inexperado en la desconexion de la base de datos");

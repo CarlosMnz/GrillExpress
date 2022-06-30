@@ -99,7 +99,7 @@ $_USER = $_SESSION['id'];
 
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="./shoping-cart.php"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
                         <div class="header__cart__price">Artículo: <span>$150.00</span></div>
 
@@ -127,11 +127,11 @@ $_USER = $_SESSION['id'];
                         <ul>
                             <li><a href="#">Carnes</a></li>
                             <ul class="header__menu__dropdown">
-                                <li><a href="#">Extra</a></li>
-                                <li><a href="#">Primera A</a></li>
-                                <li><a href="#">Primera B</a></li>
-                                <li><a href="#">Segunda</a></li>
-                                <li><a href="#"> Tercera</a></li>
+                                <li><a href="#categories">Extra</a></li>
+                                <li><a href="#categories">Primera A</a></li>
+                                <li><a href="#categories">Primera B</a></li>
+                                <li><a href="#categories">Segunda</a></li>
+                                <li><a href="#categories"> Tercera</a></li>
                             </ul>
                             <li><a href="#">Utensilios</a></li>
                             <li><a href="#">Sazonadores</a></li>

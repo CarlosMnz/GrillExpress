@@ -60,5 +60,5 @@ else
 { 
     echo"<script>alert('El usuario no existe.'); </script>"; 
 } 
-mysql_close($conexion); 
+mysqli_close($conexion); 
 ?>

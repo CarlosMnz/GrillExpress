@@ -198,7 +198,9 @@ $_USER = $_SESSION['id'];
                         <ul>
                             <li>Total <span>$<?php echo $total;?></span></li>
                         </ul>
-                        <a href="./orden-de-compra.php?total=<?php echo $total;?>" class="primary-btn">CERRAR COMPRA</a>
+                        <a href="./orden-de-compra.php?total=<?php echo $total;?>" class="primary-btn" style="margin-bottom: 5px">CERRAR COMPRA</a>
+                        <span ></span>
+                        <a href="./index.php" class="primary-btn">Cancelar Compra</a>
                     </div>
                 </div>
             </div>
