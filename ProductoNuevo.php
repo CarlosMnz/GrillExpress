@@ -98,13 +98,13 @@
                             <ul>
                                 <li class="active"><a href="./index.php">Catálogo</a></li>
                                 <li><a href="./blog.html">Receta</a></li>
-                                <li><a href="./login.php">Cerrar sesión</a></li>
                                 <li><a href="#">Acciones</a>
                                     <ul class="header__menu__dropdown">
                                         <li><a href="./PublicarBlog.php">Añadir receta</a></li>
                                         <li><a href="./ProductoNuevo.php">Añadir producto</a></li>
                                     </ul>
                                 </li>
+                            <li><a href="./login.php">Cerrar sesión</a></li>
 
     
                             </ul>
