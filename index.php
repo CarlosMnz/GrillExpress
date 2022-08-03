@@ -90,6 +90,7 @@ include 'Conexion.php';
                         <ul>
                             <li class="active"><a href="./index.php">Catálogo</a></li>
                             <li><a href="./blog.html">Receta</a></li>
+                            <li><a href="./Ayuda.php">Ayuda</a></li>
                             <li><a href="./login.php">Iniciar sesión</a></li>
                         </ul>
                     </nav>
