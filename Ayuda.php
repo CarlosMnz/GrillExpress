@@ -7,7 +7,7 @@
     <meta name="keywords" content="Ogani, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nueva Receta</title>
+    <title>Ayuda | FAQ</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -29,7 +29,34 @@
       color: red;
       font-weight: bold;
     }
-        </style>
+
+        /* Style the button that is used to open and close the collapsible content */
+    .collapsible {
+    background-color: orange;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .actives, .collapsible:hover {
+    background-color: #ccc;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    } 
+</style>
 <body>
     <!-- Page Preloder -->
     <div id="preloder">
@@ -57,9 +84,9 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.html">Catálogo</a></li>
+                <li class="active"><a href="./index.php">Catálogo</a></li>
                 <li><a href="./blog.html">Receta</a></li>
-                <li><a href="./login.html">Iniciar sesión</a></li>
+                <li><a href="./login.php">Iniciar sesión</a></li>
                 <li><a href="#">Acciones</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./PublicarBlog.html">Añadir receta</a></li>
@@ -132,11 +159,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="Title-blog">
-                        <h2>Publicar receta</h2>
-                        <div class="breadcrumb__option">
-                            <a href="./index.php">Catálogo</a>
-                            <span>Publicar receta</span>
-                        </div>
+                        <h2>Preguntas Frecuentes</h2>
                     </div>
                 </div>
             </div>
@@ -148,30 +171,40 @@
     <section class="checkout spad">
         <div class="container">
             <div class="checkout__form">
-                <h4>Publicación</h4>
+                <h4>Preguntas</h4>
                 <form action="#">
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <div class="container-blog">
+                                <h3>Sobre nosotros</h3>
                                 <div class="checkout__input">
-                                    <p>Título<span>*</span></p>
-                                    <input type="text">
+                                    <button type="button" class="collapsible">¿Quiénes somos?</button>
+                                    <!--Dentro de un div class="content" se pone la respuesta a la pregunta-->
+                                    <div class="content">
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <h3>Sobre cómo usar nuestra sitio</h3>
+                                <!--Dentro del botón poner la pregunta-->
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Cómo crear una cuenta?</button>
+                                    <!--Dentro de un div class="content" se pone la respuesta a la pregunta-->
+                                    <div class="content">
+                                        <p>Se debe dar click en el botón Iniciar Sesión ubicado al inicio de la página</p>
+                                    </div>
                                 </div>
                                 <div class="checkout__input">
-                                    <p>Procedimiento<span>*</span></p>
-                                    <textarea name="procedimiento" rows="10" cols="40">Escribe aquí el procedimiento</textarea>
+                                    <button type="button" class="collapsible">¿Cómo insertar artículos al carrito?</button>
+                                    <div class="content">
+                                        <p>Simplemente con darle click al botón de carrito que se encuentra en cada producto hará que el producto sea agregado al carrito</p>
+                                    </div>
                                 </div>
                                 <div class="checkout__input">
-                                    <p>Ingredientes<span>*</span></p>
-                                    <textarea name="ingredientes" rows="10" cols="40">Escribe aquí los ingredientes</textarea>
+                                    <button type="button" class="collapsible">¿Cómo publicar nuevas recetas?</button>
+                                    <div class="content">
+                                        <p>Una vez se haya accedido a la página principal de las recetas, simplemente se debe de dar click en "Nueva Receta" dentro del encabezado para poder ir al formulario de creación de neuvas recetas</p>
+                                    </div>
                                 </div>
-                                <div class="checkout__img">
-                                    <p>Imagen<span>*</span></p>
-                                    <input class="ob" type="file" name="imagen" required title="Este campo es Obligatorio."/>
-                                </div>
-                                <div class="checkout__submit">
-                                    <button type="submit" class="site-btn">Publicar</button>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -244,6 +277,22 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("actives");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+            content.style.display = "none";
+            } else {
+            content.style.display = "block";
+            }
+        });
+        }
+    </script>
 
  
 
