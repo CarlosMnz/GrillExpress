@@ -205,6 +205,42 @@
                                         <p>Una vez se haya accedido a la página principal de las recetas, simplemente se debe de dar click en "Nueva Receta" dentro del encabezado para poder ir al formulario de creación de neuvas recetas</p>
                                     </div>
                                 </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Qué métodos de pago aceptan?</button>
+                                    <div class="content">
+                                        <p>Los métodos de pago que manejamos en GrillExpress son mediante tarjeta de crédito o débito y PayPal</p>
+                                    </div>
+                                </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Cuáles son los tiempos de envío?</button>
+                                    <div class="content">
+                                        <p>Una vez su pago haya sido procesado y confirmado, su pedido se comienza a empaquetar a la brevedad y será envíado al día siguiente.</p>
+                                    </div>
+                                </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Qué hago si quiero devolver un producto?</button>
+                                    <div class="content">
+                                        <p>Al ser una empresa que maneja productos perecederos como lo son aquellos de la cadena fría, no aceptamos devoluciones de productos. Sin embargo, estamos concientes de que cada caso es distinto y si desea hablar con alguien de nuestro equipo, puede hacerlo a través de nuestro correo oficial <a>grillexpress.help@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Se realizan envíos a todo el país?</button>
+                                    <div class="content">
+                                        <p>Sí. GrillExpress cuenta con envío a toda la República Mexicana.</p>
+                                    </div>
+                                </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿De dónde proviene nuestro producto?</button>
+                                    <div class="content">
+                                        <p>Todos nuestros productos provienen de granjas ubicadas en el estado de Culiacán, Sinaloa, y son productos libres de hormonas y clenbuterol.</p>
+                                    </div>
+                                </div>
+                                <div class="checkout__input">
+                                    <button type="button" class="collapsible">¿Qué debo hacer si recibo un artículo incorrecto o defectuoso?</button>
+                                    <div class="content">
+                                        <p>Si en alguna ocasión, por error, se llegase a recibir un artículo no solicitado o con algún defecto, ponte en contacto con nuestro equipo mediante nuestro correo oficial <a>grillexpress.help@gmail.com</a>, y por ese medio se le indicará el proceso a realizar.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
