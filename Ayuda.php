@@ -181,7 +181,7 @@
                                     <button type="button" class="collapsible">¿Quiénes somos?</button>
                                     <!--Dentro de un div class="content" se pone la respuesta a la pregunta-->
                                     <div class="content">
-                                        <p></p>
+                                        <p>respuesta</p>
                                     </div>
                                 </div>
                                 <h3>Sobre cómo usar nuestra sitio</h3>
