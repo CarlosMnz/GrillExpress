@@ -181,7 +181,10 @@
                                     <button type="button" class="collapsible">¿Quiénes somos?</button>
                                     <!--Dentro de un div class="content" se pone la respuesta a la pregunta-->
                                     <div class="content">
-                                        <p>respuesta</p>
+                                        <p>Somos una empresa tamaulipeca dedicada a la comercialización de carnes,  con el objetivo de proveer insumos de la más alta calidad. Siempre brindando un servicio profesional, para así satisfacer las necesidades de nuestros clientes.</p>
+                                        <p>Para lograr la satisfacción de nuestros clientes, en GrillExpress ofrecemos productos de la más alta calidad, garantizando un servicio de primera.</p>
+                                        <p>Los clientes son el centro de todo lo que hacemos, nuestro trabajo debe estar hecho pensando en nuestros clientes, proporcionando mejores productos y servicios que nuestra competencia.</p>
+                                        <p>Para GrillExpress lo más importante siempre son nuestros clientes, es por ello que tomamos en cuenta cada una de sus necesidades y así tener la certeza de que lo que busque lo encontrará con nosotros.</p>
                                     </div>
                                 </div>
                                 <h3>Sobre cómo usar nuestra sitio</h3>
@@ -220,7 +223,7 @@
                                 <div class="checkout__input">
                                     <button type="button" class="collapsible">¿Qué hago si quiero devolver un producto?</button>
                                     <div class="content">
-                                        <p>Al ser una empresa que maneja productos perecederos como lo son aquellos de la cadena fría, no aceptamos devoluciones de productos. Sin embargo, estamos concientes de que cada caso es distinto y si desea hablar con alguien de nuestro equipo, puede hacerlo a través de nuestro correo oficial <a>grillexpress.help@gmail.com</a></p>
+                                        <p>Al ser una empresa que maneja productos perecederos como lo son aquellos de la cadena fría, no aceptamos devoluciones de productos. Sin embargo, estamos concientes de que cada caso es distinto y si desea hablar con alguien de nuestro equipo, puede hacerlo a través de nuestro correo oficial: <a>grillexpress.help@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <div class="checkout__input">
@@ -238,7 +241,7 @@
                                 <div class="checkout__input">
                                     <button type="button" class="collapsible">¿Qué debo hacer si recibo un artículo incorrecto o defectuoso?</button>
                                     <div class="content">
-                                        <p>Si en alguna ocasión, por error, se llegase a recibir un artículo no solicitado o con algún defecto, ponte en contacto con nuestro equipo mediante nuestro correo oficial <a>grillexpress.help@gmail.com</a>, y por ese medio se le indicará el proceso a realizar.</p>
+                                        <p>Si en alguna ocasión, por error, se llegase a recibir un artículo no solicitado o con algún defecto, ponte en contacto con nuestro equipo mediante nuestro correo oficial: <a>grillexpress.help@gmail.com</a>, y por ese medio se le indicará el proceso a realizar.</p>
                                     </div>
                                 </div>
                             </div>
