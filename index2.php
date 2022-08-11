@@ -66,7 +66,7 @@ $_USER = $_SESSION['id'];
                 <li><a href="#">Acciones</a>
                 <ul class="header__menu__dropdown">
                     <li><a href="./PublicarBlog.html">Añadir receta</a></li>
-                    <li><a href="./ProductoNuevo.html">Añadir producto</a></li>
+                    <li><a href="./ProductoNuevo.php">Añadir producto</a></li>
                 </ul>
                 <li><a href="./login.html">Iniciar sesión</a></li>
             </li>

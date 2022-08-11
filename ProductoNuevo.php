@@ -261,6 +261,7 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/Coma.js"></script>
+    <script src="Producto.js"></script>
 
 </body>
 
